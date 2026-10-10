@@ -1,1 +1,393 @@
-# sandexstudio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SANDX Studio | Create • Explore • Innovate</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #050816;
+    color: white;
+}
+
+header {
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #18213d;
+    background: #050816;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #5ee7ff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 22px;
+}
+
+nav a:hover {
+    color: #5ee7ff;
+}
+
+.hero {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    background:
+        radial-gradient(circle at center, #16285c 0%, #050816 60%);
+}
+
+.hero h1 {
+    font-size: 65px;
+    margin-bottom: 18px;
+}
+
+.hero h1 span {
+    color: #5ee7ff;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #b9c4e8;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 26px;
+    margin: 8px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    background: #5ee7ff;
+    color: #050816;
+}
+
+.btn:hover {
+    transform: scale(1.04);
+}
+
+.btn.dark {
+    background: transparent;
+    color: white;
+    border: 1px solid #5ee7ff;
+}
+
+section {
+    padding: 75px 8%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 22px;
+}
+
+.card {
+    background: #0b1228;
+    border: 1px solid #18213d;
+    border-radius: 18px;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    border-color: #5ee7ff;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.card h3 {
+    margin: 15px 0;
+    color: #5ee7ff;
+}
+
+.card p {
+    color: #aeb8d5;
+    line-height: 1.6;
+}
+
+.contact-box {
+    max-width: 650px;
+    margin: auto;
+    background: #0b1228;
+    border: 1px solid #18213d;
+    border-radius: 20px;
+    padding: 35px;
+}
+
+.contact-box p {
+    margin: 14px 0;
+    color: #c5cee8;
+    font-size: 17px;
+}
+
+.contact-box a {
+    color: #5ee7ff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 35px;
+    border-top: 1px solid #18213d;
+    color: #8d98b8;
+}
+
+@media(max-width:700px) {
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    section {
+        padding: 55px 6%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">🚀 SANDX Studio</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#apps">Apps</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+
+<!-- HOME -->
+
+<section class="hero" id="home">
+
+<div>
+
+<h1>Welcome to <span>SANDX Studio</span></h1>
+
+<p>
+Create • Explore • Innovate
+<br>
+A creative technology studio exploring AI,
+science, apps, websites and digital projects.
+</p>
+
+<div class="buttons">
+
+<a class="btn"
+href="#apps">
+Explore Apps
+</a>
+
+<a class="btn dark"
+href="https://youtube.com/@sandexstudio?si=BeJxPjj-WbMBMpk4"
+target="_blank">
+▶ YouTube
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- APPS -->
+
+<section id="apps">
+
+<h2>📱 Our Apps</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<div class="icon">🧪</div>
+
+<h3>Science Zone LK</h3>
+
+<p>
+Explore science lessons, experiments,
+facts and educational content.
+</p>
+
+<br>
+
+<a class="btn"
+href="https://deluxe-rugelach-824e47.netlify.app/"
+target="_blank">
+Open App
+</a>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">🚀</div>
+
+<h3>SANDX Studio Projects</h3>
+
+<p>
+More creative technology projects
+are coming soon.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2>💡 Our Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<div class="icon">🤖</div>
+
+<h3>AI & Technology</h3>
+
+<p>
+Exploring artificial intelligence
+and modern technology.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">🌐</div>
+
+<h3>Websites</h3>
+
+<p>
+Creative and useful websites
+built by SANDX Studio.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">🧪</div>
+
+<h3>Science</h3>
+
+<p>
+Science projects, experiments
+and educational content.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>📞 Contact SANDX Studio</h2>
+
+<div class="contact-box">
+
+<p>
+📧 Email:
+<br>
+<a href="mailto:samankuma036@gmail.com">
+samankuma036@gmail.com
+</a>
+</p>
+
+<p>
+📱 Phone:
+<br>
+<a href="tel:0762246317">
+0762246317
+</a>
+<br>
+<a href="tel:0711801545">
+0711801545
+</a>
+</p>
+
+<p>
+🚀 SANDX Studio
+<br>
+Create • Explore • Innovate
+</p>
+
+</div>
+
+</section>
+
+
+<footer>
+
+© 2026 SANDX Studio. All rights reserved.
+
+</footer>
+
+</body>
+</html>
